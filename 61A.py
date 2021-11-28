@@ -1,12 +1,9 @@
 first = str(input())
 second = str(input())
 
-answer = ''
-for f in range(len(first)):
-    if first[f] == second[f]:
-        answer += '0'
+solution = ''
 
-    else:
-        answer += '1'
+for i in range(len(first)):
+    solution += str(int(first[i]) ^ int(second[i]))
 
-print(answer)
+print(solution)
