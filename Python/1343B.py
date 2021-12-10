@@ -16,6 +16,7 @@ for _ in range(n):
 
         # Result is concatenation of even, odd and difference between sum of even and odd
         result = even + odd + [sum(even) - sum(odd)]
+        print(result)
 
         print("YES")
         print(" ".join(map(str, result)))
