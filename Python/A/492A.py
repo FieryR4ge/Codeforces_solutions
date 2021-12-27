@@ -2,10 +2,10 @@ n = int(input())
 
 h = 0
 count = 0
-while count <= n:
-    h += 1
-    count += h*(h+1)//2
+while h <= n:
+    count += 1
+    h += count * (count + 1) // 2
 
-print(h-1)
+print(count - 1)
 
 
