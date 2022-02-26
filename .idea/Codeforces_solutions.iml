@@ -10,7 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/solution/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/solution/target" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (Documents)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Python 3.8 (coinloan) interpreter library" level="application" />
   </component>
